@@ -22,6 +22,7 @@ public class ProxyDeAcesso
         {
             //modo = new ModoAcesso("lan", "admin", "121212");
             modo = new ModoAcesso2("lan", user);            
+            validacao = new ValidacaoAcesso(modo);
             
             if (validacao.VerificarConexao())
                 objetoConexao = "lan";    // retorna o objeto de conexao;
