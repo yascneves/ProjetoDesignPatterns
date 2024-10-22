@@ -6,7 +6,7 @@ public class ConexaoBD
     public static final String ANSI_BLUE = "\u001B[34m";
     public static final String ANSI_BLACK = "\u001B[30m";
     
-    public void ConexaoBD()
+    public ConexaoBD()
     {
         
     }
